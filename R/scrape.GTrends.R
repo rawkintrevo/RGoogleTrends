@@ -34,159 +34,99 @@
 
 ###################################################################
 ####  Phase 0: The setup
-scrape.GTrends <- function(keyw, google.locations, date, category, ch)
+scrape.GTrends <- function(locations,pivot_word, pivot_word_name, category, dates, keywords, ch)
 {
-  global.keywords <- keyw
-  
-  
-  ## You can only query 4 keywords at a time in the API so we need to break up 
-  ## our keywords into blocks of 4.  Also, at least one keyword from each block
-  ## must be in common with the previous block, and the following block.  
-  ## We need these keywords in common for reference when we merge. 
-  ##
-  ## v2.0 UPDATE:  This is much less critical than it was in v1.0 however,
-  ##                it is still important for the finding and normalizing
-  ##                the so-called 'base location'.
-  
-  keyword.block <- make.keyword.blocks( global.keywords )
-  
-  
-  ###################################################################
-  #### Phase 1:The Search for a complete set ########################
-  
-  
-  breakFLAG <- FALSE
-  nextFLAG <- FALSE
-  cat("\nPhase1: Searching for a base locations...")
-  for (local in 1:(dim(google.locations)[1]))
-  {
-    nextFLAG <- FALSE
-    cat(paste("\nChecking on:", google.locations[local,2]))
-    phase1_output <- list()
-    for (block in 1:length(keyword.block)){
-      keywords <- keyword.block[[block]]
-      google.location.code <- google.locations[local,1]
-      output <- query.GTrends(keywords,category,date, google.location.code,ch)
-      
-      #Sys.sleep(60)   A 60 second sleep timer is built into the 
-      #query.GTrends function, no need for it here
-      
-      if(is.null(output) || ncol(output) < 3 ){
-        cat("...not enough search volume.")
-        nextFLAG <- TRUE
-        break
-      }
-      phase1_output[[block]] <- output  
-      
+	key_table <- list()
+
+	#################################################
+	####  Here we pop the first demo off to be pivot geo
+	####  Check to make sure there are no NAs at that geo
+	####  Build a location table/make sure the pivot geo is in every run
+
+	### TODO: Sometimes you get NA for most recent week for all places.
+	### Need to be able to identify that situation and pop the last date off. 
+
+	print("Searching for useable pivot geography...")
+	for (i in 1:length(locations)){
+	  print(paste("Checking ",locations[i]))
+	  pivot_geo = locations[i]
+	  master_key_vector <- query.GTrends(pivot_word, category, dates, pivot_geo,ch)[,2]
+	  if (!(0 %in% master_key_vector) & !(NA %in% master_key_vector)){
+		locations = locations[-1]
+		key_geos <- rbind(pivot_geo,matrix(append(locations, rep("", 4-(length(locations)%%4))),nrow=4))
+		pivot_geo_name <- read.csv(LOCATION_FILE)[i,2] 
+		break
+	  }
+	}
+	print(paste("Using", pivot_geo_name))
+
+geo_table <- list()
+for (location in locations){
+  print(paste("Collecting in",location))
+  skip_geo = FALSE
+  for (i in 1:ncol(keywords)){
+    temp_table <-  query.GTrends(keywords[,i], category, dates, location,ch)
+    rownames(temp_table) <- temp_table['Date'][,1]
+    temp_table <- temp_table[, -1,drop=FALSE]
+    if (length(master_key_vector) == dim(temp_table)[1]){
+      key_table[[i]] <- temp_table
+    } else {
+      print("Low volume warning...skipping geography")
+      skip_geo =TRUE
+      break 
     }
-    if (nextFLAG) next
-    ### TODO:  This is really phase1b_output now... 
-    ###  an easy fix.  Just gets confusing below
-    phase2_output <- phase1_output[[1]][,-1]
-    dates <- phase1_output[[1]][,1]
-    ### So Phase1 output is a list() of data.frames
-    for (next_frame in phase1_output[2:(length(phase1_output))]){
-      if ((tail(colnames(phase2_output),1) == colnames(next_frame)[2]) &&
-            (dim(next_frame)[2]>2)){
-        phase2_output <- cbind(phase2_output/phase2_output[,dim(phase2_output)[2]], next_frame[,-1:-2]/next_frame[,2]) 
-      }
-    }
-    if (ncol(phase2_output)< nrow(global.keywords)){
-      cat("...almost, not enough data on all keywords.")
-      next
-    }
-    base.table <- cbind(dates, phase2_output)
-    ### Saving the code and name of the base.table makes code
-    ### a lot easier to read in Phase3
-    base.geo.code <-  google.locations[local,1]
-    base.location <- google.locations[local,2]
-    cat(paste("\nBase Table FOUND:", google.locations[local,2]))
-    ### Hooray! Let's GTFO of here!
-    break
-    ### TODO: It could be our base table sucks.  It could have
-    ### large patches of 0s or be in months when we know we can 
-    ### get weekly or daily granularity.  
-    ###
-    ### This can happen because the selected base.location
-    ### was either to small and didn't have enough data OR
-    ### it was to big and eclipses lots of the other smaller
-    ### locations.  
-    ###
-    ### The TODO then is to mark where we left off and maybe comeback
-    ### later and get a better base.table
-    ###
-    ### ALTERNITIVELY: Depending on how clever we are at 'fixing'
-    ### the phase2 output (filling in missing data), this might
-    ### not be nessicary(sic). 
+    
   }
+  if (skip_geo) next
   
-  ###################################################################
-  #### Phase 2:The Search for a complete set ########################
   
-  ###  The list phase2_output will be a list such that each element
-  ###  will be named with the name of the location.
-  ###  That makes it nice so you can do names(phase2_output) and
-  ###  it will give you a vector of the names of the geographies.
-  ###
-  ###  Each element will be a data.frame with a table that gives
-  ###  The relative intensity.
-  
-  phase3_output <-list()
-  ###  We can start our table with the base.table from Phase 1
-  phase3_output[[base.location]] <- base.table
-  
-  for (keyword in colnames(base.table)[2:ncol(base.table)]){
-    ### Starting at 2 skips the 'dates' column
-    cat(paste("\nFinding data for keyword:", keyword))
-    for (local in 1:(dim(google.locations)[1])){
-      loop.location.name <- google.locations[local,2]
-      cat(paste("\n",loop.location.name))
-      if (loop.location.name == base.location) next  ## We don't need to do
-      ## this for base.table
-      
-      google.location.code <- c(base.geo.code, google.locations[local,1] )
-      output <- query.GTrends(keyword,category,date, google.location.code,ch)
-      ### Does the specified data frame exist yet?
-      ### If not create it, if so bind to it
-      
-      ### TODO: This is in bad need of error handling
-      ###  Hopefully someone who knows what they are doing
-      ###  will add some tryCatch here.  
-      ###  Reason: if base.table is in Weeks and the output from
-      ###  a few lines ago is in Months then shit's going to come
-      ###  off the rails. Also- it could be 
-      ###  that nothing is returned, e.g. output has only 2 columns
-      ###  date and the geography of our base.table
-      
-      if (ncol(output) == 3 && nrow(output) == nrow(base.table)){
-        ### Lazy fix: If there are 3 columns and the same number
-        ### of rows as the base.table it MUST be OK... 
-        ### You're better than that.  Use tryCatch
-        old.data <- phase3_output[[ loop.location.name ]]
-        if(is.null(old.data)){
-          ### There was nothing in that spot on the list
-          ###  put a new data.frame in
-          new.data <- cbind(output[,1], base.table[,keyword] * (output[,3]/output[,2]))
-          colnames(new.data) <- c("Date", keyword)
-        } else {
-          ### There was something in that spot on the list
-          ###  bind to the existing data.frame
-          new.data <- cbind(old.data, base.table[,keyword] * (output[,3]/output[,2]))
-          colnames(new.data) <- c(colnames(old.data), keyword)
-        }
-        phase3_output[[loop.location.name]] <- new.data
-      } else{
-        cat("...failed.")
-        ### and then report it so we come back later and
-        ### try to fill it in.
-      } 
-      
+  if (length(key_table) > 1){  ## Only do this if there is more than one keyword
+    temp_table <- key_table[[1]] / key_table[[1]][,pivot_word_name]
+    for (i in 2:length(key_table)){
+      temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_word_name])
     }
+    temp_table <- temp_table[, -tail(which(colnames(temp_table) == pivot_word_name),-1)]
   }
+    
+  geo_table[[location]] <- temp_table
   
-  #######
-  ### TODO: Spot Checks to make sure table works out the way you 
-  ### Thought it should
+}
+
+
+print("Data collected for keywords, collecting geographies")
+
+########### Start here for single keyword
+
+for (i in 1:ncol(key_geos)){
+  temp_table <-  query.GTrends(pivot_word, category, dates, key_geos[,i],ch)
+  rownames(temp_table) <- temp_table['Date'][,1]
+  temp_table <- temp_table[, -1]
+  key_table[[i]] <- temp_table
+}
+
+
+temp_table <- key_table[[1]] / key_table[[1]][,pivot_geo_name] 
+for (i in 2:length(key_table)){
+  temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_geo_name])
+}
+
+temp_table <- temp_table[, -tail(which(colnames(temp_table) == pivot_geo_name),-1)]
+
+
+temp_table <- temp_table* master_key_vector
+
+
+#### Only need the rest in multiple keyword case
+
+for (j in 1:ncol(temp_table)){
+  state_name <- colnames(temp_table)[j]
+  state_code <-google.locations[google.locations[,2]==state_name,1]
+  geo_table[[state_code]] <- geo_table[[state_code]]*temp_table[,pivot_geo_name]
+  
+}
+
+
+
   
   return(phase3_output)
 }

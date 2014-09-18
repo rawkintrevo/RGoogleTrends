@@ -1,5 +1,5 @@
-########################################################
-### Useage Example
+######################################
+#### Python Integration Scratch Pad
 
 
 ##### Load required libraries
@@ -11,40 +11,30 @@ library(stringr)
 options(stringsAsFactors=FALSE)
 
 ##### Auxilary Function Files Keep my code neat and clean
-source("R/signIn.R")
-source("R/Useful Functions.R")
-source("R/scrape.GTrends.R")
+source("Google Login.R")
+source("Useful Functions.R")
+source("scrape.GTrends.R")
+
 
 username <- "some_guy@gmail.com"
-password <- "his_password"
-
+password <- "my_pass"
 ch <- gLogin(username, password)
 
-keywords      <- read.csv("keywords.csv")
+pivot_word <- "%2Fm%2F0539y0"  # Emmit Smith
+pivot_word_name <- 'sauce'
 
-## This is the place where the location codes are loaded in. 
-## When this is packaged it will probably be passed as an argument
-## in the function.  If you Limeys get ahold of this script before
-## then you'll point this to your csv file of location codes. 
-##  FREE HINT WHEN MAKING THIS FILE:  Since it is going in the order
-##  of the file looking for a base.table it would make sense
-## to put the geographic locations most likely to return a good 
-## base.table first. 
+category <- ''# Jan 2011 - Present
+dates <- '1%2F2011%2039m'
 
-#google.locations <- read.csv("Google_DMA_codes.csv")
-google.locations <- read.csv("Google_state_codes.csv")
+## Fun Fact: All columns need to be same length
+keywords <- read.csv("food keywords.csv", header=FALSE)
 
+keywords <- rbind(keywords,pivot_word)
 
-date          <- c("1%2F2011 34m") # Jan 2011 + 34m (Oct 2013)
-category      <- c("0-7-38")       # Insurance Category Code
+LOCATION_FILE <- "Google_state_codes.csv"
+locations <- read.csv(LOCATION_FILE)[,1] 
 
+scrape.GTrends(locations,pivot_word, pivot_word_name, category, dates, keywords, ch)
 
-output <- scrape.GTrends(keywords, google.locations, date, category, ch)
-output <- fix.dates(output)
-output <- make.longfile(output)
-
-filename <- paste0( format(Sys.time(), "%y-%m-%d.%H-%M-%S"),"-Google Trends Scrape.csv")
-write.csv(output,filename)
-
-
-
+output <- make.longfile(geo_table)
+write.csv(output, file.choose())

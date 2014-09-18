@@ -92,8 +92,9 @@ make.longfile <- function(phase3_output){
   for (geo in names(phase3_output)){
     ### TODO Convert Dates
     geo.df <- phase3_output[[geo]]
-    for (keyword in colnames(geo.df)[2:ncol(geo.df)]){
-      long.df.to.bind <- data.frame(as.Date(geo.df[,1]), geo, keyword, geo.df[,keyword])
+    if (is.null(dim(geo.df))) next
+    for (keyword in colnames(geo.df)[1:ncol(geo.df)]){
+      long.df.to.bind <- data.frame(rownames(geo.df), geo, keyword, geo.df[,keyword])
       colnames(long.df.to.bind) <- c('Date', 'Geography', 'Keyword', 'Relative Search Intensity')
       if (exists("long.df")){
         ### TODO: quit using rbind like a grad student
