@@ -11,9 +11,9 @@ library(stringr)
 options(stringsAsFactors=FALSE)
 
 ##### Auxilary Function Files Keep my code neat and clean
-source("Google Login.R")
-source("Useful Functions.R")
-source("scrape.GTrends.R")
+source("R/signIn.R")
+source("R/Useful Functions.R")
+source("R/scrape.GTrends.R")
 
 username <- "some_guy@gmail.com"
 password <- "his_password"
@@ -44,7 +44,7 @@ output <- fix.dates(output)
 output <- make.longfile(output)
 
 filename <- paste0( format(Sys.time(), "%y-%m-%d.%H-%M-%S"),"-Google Trends Scrape.csv")
-write.csv(output,"State Scrape2.csv")
+write.csv(output,filename)
 
 
-query.GTrends(keywords,'0-71',"today%2012-m", "US",ch)
+
