@@ -16,3 +16,4 @@
 - [ ] Do a final random query to check accuracy of results. 
 - [ ] Expand state codes to include all 50 states. 
 - [ ] Search type support (web/image/etc)
+- [ ] Write output to Hbase optionally (this might be a whole other Python project)
