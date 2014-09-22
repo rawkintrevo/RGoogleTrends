@@ -34,100 +34,108 @@
 
 ###################################################################
 ####  Phase 0: The setup
-scrape.GTrends <- function(locations,pivot_word, pivot_word_name, category, dates, keywords, ch)
+scrape.GTrends <- function(LOCATION_FILE,pivot_word, pivot_word_name, category, dates, keywords, ch)
 {
-	key_table <- list()
-
-	#################################################
-	####  Here we pop the first demo off to be pivot geo
-	####  Check to make sure there are no NAs at that geo
-	####  Build a location table/make sure the pivot geo is in every run
-
-	### TODO: Sometimes you get NA for most recent week for all places.
-	### Need to be able to identify that situation and pop the last date off. 
-
-	print("Searching for useable pivot geography...")
-	for (i in 1:length(locations)){
-	  print(paste("Checking ",locations[i]))
-	  pivot_geo = locations[i]
-	  master_key_vector <- query.GTrends(pivot_word, category, dates, pivot_geo,ch)[,2]
-	  if (!(0 %in% master_key_vector) & !(NA %in% master_key_vector)){
-		locations = locations[-1]
-		key_geos <- rbind(pivot_geo,matrix(append(locations, rep("", 4-(length(locations)%%4))),nrow=4))
-		pivot_geo_name <- read.csv(LOCATION_FILE)[i,2] 
-		break
-	  }
-	}
-	print(paste("Using", pivot_geo_name))
-
-geo_table <- list()
-for (location in locations){
-  print(paste("Collecting in",location))
-  skip_geo = FALSE
-  for (i in 1:ncol(keywords)){
-    temp_table <-  query.GTrends(keywords[,i], category, dates, location,ch)
+  ############################################################################################
+  key_table <- list()
+  locations <- read.csv(LOCATION_FILE)[,1] 
+  google.locations <- read.csv(LOCATION_FILE)
+  #################################################
+  ####  Here we pop the first demo off to be pivot geo
+  ####  Check to make sure there are no NAs at that geo
+  ####  Build a location table/make sure the pivot geo is in every run
+  
+  ### TODO: Sometimes you get NA for most recent week for all places.
+  ### Need to be able to identify that situation and pop the last date off. 
+  
+  
+  #### Prerun -- Searching for Pivot Geographies
+  #### Later, take a list of keywords and organize keyword batches
+  
+  ## Each of these setups should be a method...
+  print("Searching for useable pivot geography...")
+  for (i in 1:length(locations)){
+    print(paste("Checking ",locations[i]))
+    pivot_geo = locations[i]
+    master_key_vector <- query.GTrends(pivot_word, category, dates, pivot_geo,ch)[,2]
+    if (!(0 %in% master_key_vector) & !(NA %in% master_key_vector)){
+      ## If there are no 0's and no NA's, this can be the master_key_vector
+      locations = locations[-1]
+      key_geos <- rbind(pivot_geo,matrix(append(locations, rep("", 4-(length(locations)%%4))),nrow=4))
+      pivot_geo_name <- google.locations[i,2] 
+      break
+    }
+  }
+  print(paste("Using", pivot_geo_name))
+  
+  geo_table <- list()
+  for (location in key_geos[,1]){  #instead of locatoins 9/22/14, locations was always missing pivot_geo
+    if (location==""){next}
+    print(paste("Collecting in",location))
+    skip_geo = FALSE
+    for (i in 1:ncol(keywords)){
+      temp_table <-  query.GTrends(keywords[,i], category, dates, location,ch)
+      rownames(temp_table) <- temp_table['Date'][,1]
+      temp_table <- temp_table[, -1,drop=FALSE]
+      if (length(master_key_vector) == dim(temp_table)[1]){
+        key_table[[i]] <- temp_table
+      } else {
+        print("Low volume warning...skipping geography")
+        skip_geo =TRUE
+        break 
+      }
+      
+    }
+    if (skip_geo) next
+    
+    if (length(key_table) > 1){  ## Only do this if there is more than one keyword
+      temp_table <- key_table[[1]] / key_table[[1]][,pivot_word_name]
+      for (i in 2:length(key_table)){
+        temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_word_name])
+      }
+      temp_table <- temp_table[, -tail(which(colnames(temp_table) == pivot_word_name),-1)]
+    }
+    
+    geo_table[[location]] <- temp_table
+    
+  }
+  
+  
+  print("Data collected for keywords, collecting geographies")
+  key_table <- list()
+  for (i in 1:ncol(key_geos)){
+    temp_table <-  query.GTrends(pivot_word, category, dates, key_geos[,i],ch)
     rownames(temp_table) <- temp_table['Date'][,1]
-    temp_table <- temp_table[, -1,drop=FALSE]
-    if (length(master_key_vector) == dim(temp_table)[1]){
-      key_table[[i]] <- temp_table
-    } else {
-      print("Low volume warning...skipping geography")
-      skip_geo =TRUE
-      break 
-    }
-    
+    temp_table <- temp_table[, -1]
+    key_table[[i]] <- temp_table
   }
-  if (skip_geo) next
   
   
-  if (length(key_table) > 1){  ## Only do this if there is more than one keyword
-    temp_table <- key_table[[1]] / key_table[[1]][,pivot_word_name]
+  temp_table <- key_table[[1]] / key_table[[1]][,pivot_geo_name] 
+  if (length(key_table) > 1){
     for (i in 2:length(key_table)){
-      temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_word_name])
+      temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_geo_name])
     }
-    temp_table <- temp_table[, -tail(which(colnames(temp_table) == pivot_word_name),-1)]
   }
-    
-  geo_table[[location]] <- temp_table
   
-}
-
-
-print("Data collected for keywords, collecting geographies")
-
-########### Start here for single keyword
-
-for (i in 1:ncol(key_geos)){
-  temp_table <-  query.GTrends(pivot_word, category, dates, key_geos[,i],ch)
-  rownames(temp_table) <- temp_table['Date'][,1]
-  temp_table <- temp_table[, -1]
-  key_table[[i]] <- temp_table
-}
-
-
-temp_table <- key_table[[1]] / key_table[[1]][,pivot_geo_name] 
-for (i in 2:length(key_table)){
-  temp_table <- cbind( temp_table , key_table[[i]] / key_table[[i]][,pivot_geo_name])
-}
-
-temp_table <- temp_table[, -tail(which(colnames(temp_table) == pivot_geo_name),-1)]
-
-
-temp_table <- temp_table* master_key_vector
-
-
-#### Only need the rest in multiple keyword case
-
-for (j in 1:ncol(temp_table)){
-  state_name <- colnames(temp_table)[j]
-  state_code <-google.locations[google.locations[,2]==state_name,1]
-  geo_table[[state_code]] <- geo_table[[state_code]]*temp_table[,pivot_geo_name]
+  if (length(key_table) > 1)  {
+    col_to_drop = tail(which(colnames(temp_table) == pivot_geo_name),-1)
+    temp_table <- temp_table[, -col_to_drop]
+  }
   
-}
-
+  temp_table <- temp_table* master_key_vector
+  
+  
+  #### Only need the rest in multiple keyword case
+  
+  for (j in 1:ncol(temp_table)){
+    state_name <- colnames(temp_table)[j]
+    state_code <-google.locations[google.locations[,2]==state_name,1]
+    geo_table[[state_code]] <- geo_table[[state_code]]*temp_table[,pivot_geo_name]
+  }
 
 
   
-  return(phase3_output)
+  return(geo_table)
 }
 

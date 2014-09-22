@@ -1,0 +1,1366 @@
+"","Date","Geography","Keyword","Relative Search Intensity"
+"1","January 2011","US-IL","pizza",430
+"2","February 2011","US-IL","pizza",459
+"3","March 2011","US-IL","pizza",401.785714285714
+"4","April 2011","US-IL","pizza",421.333333333333
+"5","May 2011","US-IL","pizza",433.928571428571
+"6","June 2011","US-IL","pizza",444
+"7","July 2011","US-IL","pizza",510.285714285714
+"8","August 2011","US-IL","pizza",464
+"9","September 2011","US-IL","pizza",480.6
+"10","October 2011","US-IL","pizza",484.533333333333
+"11","November 2011","US-IL","pizza",487.058823529412
+"12","December 2011","US-IL","pizza",523.529411764706
+"13","January 2012","US-IL","pizza",497.352941176471
+"14","February 2012","US-IL","pizza",488.75
+"15","March 2012","US-IL","pizza",481
+"16","April 2012","US-IL","pizza",523.714285714286
+"17","May 2012","US-IL","pizza",465.142857142857
+"18","June 2012","US-IL","pizza",494
+"19","July 2012","US-IL","pizza",530.266666666667
+"20","August 2012","US-IL","pizza",492.470588235294
+"21","September 2012","US-IL","pizza",477.25
+"22","October 2012","US-IL","pizza",431.866666666667
+"23","November 2012","US-IL","pizza",453.733333333333
+"24","December 2012","US-IL","pizza",481.764705882353
+"25","January 2013","US-IL","pizza",465.411764705882
+"26","February 2013","US-IL","pizza",478.5
+"27","March 2013","US-IL","pizza",446.25
+"28","April 2013","US-IL","pizza",412.285714285714
+"29","May 2013","US-IL","pizza",417.857142857143
+"30","June 2013","US-IL","pizza",507
+"31","July 2013","US-IL","pizza",473.0625
+"32","August 2013","US-IL","pizza",492.352941176471
+"33","September 2013","US-IL","pizza",449.176470588235
+"34","October 2013","US-IL","pizza",435.75
+"35","November 2013","US-IL","pizza",490
+"36","December 2013","US-IL","pizza",475.941176470588
+"37","January 2014","US-IL","pizza",473.684210526316
+"38","February 2014","US-IL","pizza",459.555555555556
+"39","March 2014","US-IL","pizza",483.4375
+"40","January 2011","US-IL","ice cream",43
+"41","February 2011","US-IL","ice cream",43.2
+"42","March 2011","US-IL","ice cream",42.8571428571429
+"43","April 2011","US-IL","ice cream",85.3333333333333
+"44","May 2011","US-IL","ice cream",58.9285714285714
+"45","June 2011","US-IL","ice cream",68.7142857142857
+"46","July 2011","US-IL","ice cream",81.4285714285714
+"47","August 2011","US-IL","ice cream",64
+"48","September 2011","US-IL","ice cream",48.6
+"49","October 2011","US-IL","ice cream",47.4
+"50","November 2011","US-IL","ice cream",47.6470588235294
+"51","December 2011","US-IL","ice cream",52.3529411764706
+"52","January 2012","US-IL","ice cream",47.1176470588235
+"53","February 2012","US-IL","ice cream",47.8125
+"54","March 2012","US-IL","ice cream",63.4285714285714
+"55","April 2012","US-IL","ice cream",66.8571428571428
+"56","May 2012","US-IL","ice cream",79.2857142857143
+"57","June 2012","US-IL","ice cream",93.6
+"58","July 2012","US-IL","ice cream",109.333333333333
+"59","August 2012","US-IL","ice cream",75.7647058823529
+"60","September 2012","US-IL","ice cream",51.875
+"61","October 2012","US-IL","ice cream",36.8666666666667
+"62","November 2012","US-IL","ice cream",38.7333333333333
+"63","December 2012","US-IL","ice cream",42.3529411764706
+"64","January 2013","US-IL","ice cream",43.2941176470588
+"65","February 2013","US-IL","ice cream",44
+"66","March 2013","US-IL","ice cream",47.25
+"67","April 2013","US-IL","ice cream",47.5714285714286
+"68","May 2013","US-IL","ice cream",64.2857142857143
+"69","June 2013","US-IL","ice cream",78
+"70","July 2013","US-IL","ice cream",87
+"71","August 2013","US-IL","ice cream",71.1176470588235
+"72","September 2013","US-IL","ice cream",48.7058823529412
+"73","October 2013","US-IL","ice cream",36.3125
+"74","November 2013","US-IL","ice cream",32.6666666666667
+"75","December 2013","US-IL","ice cream",38.2941176470588
+"76","January 2014","US-IL","ice cream",47.3684210526316
+"77","February 2014","US-IL","ice cream",41.7777777777778
+"78","March 2014","US-IL","ice cream",47.8125
+"79","January 2011","US-IL","cat",172
+"80","February 2011","US-IL","cat",172.8
+"81","March 2011","US-IL","cat",166.071428571429
+"82","April 2011","US-IL","cat",170.666666666667
+"83","May 2011","US-IL","cat",182.142857142857
+"84","June 2011","US-IL","cat",190.285714285714
+"85","July 2011","US-IL","cat",184.571428571429
+"86","August 2011","US-IL","cat",181.333333333333
+"87","September 2011","US-IL","cat",189
+"88","October 2011","US-IL","cat",205.4
+"89","November 2011","US-IL","cat",190.588235294118
+"90","December 2011","US-IL","cat",183.235294117647
+"91","January 2012","US-IL","cat",183.235294117647
+"92","February 2012","US-IL","cat",196.5625
+"93","March 2012","US-IL","cat",190.285714285714
+"94","April 2012","US-IL","cat",206.142857142857
+"95","May 2012","US-IL","cat",195.571428571429
+"96","June 2012","US-IL","cat",187.2
+"97","July 2012","US-IL","cat",202.266666666667
+"98","August 2012","US-IL","cat",200.235294117647
+"99","September 2012","US-IL","cat",186.75
+"100","October 2012","US-IL","cat",205.4
+"101","November 2012","US-IL","cat",204.733333333333
+"102","December 2012","US-IL","cat",232.941176470588
+"103","January 2013","US-IL","cat",221.882352941176
+"104","February 2013","US-IL","cat",225.5
+"105","March 2013","US-IL","cat",210
+"106","April 2013","US-IL","cat",195.571428571429
+"107","May 2013","US-IL","cat",208.928571428571
+"108","June 2013","US-IL","cat",222.857142857143
+"109","July 2013","US-IL","cat",212.0625
+"110","August 2013","US-IL","cat",224.294117647059
+"111","September 2013","US-IL","cat",211.058823529412
+"112","October 2013","US-IL","cat",223.0625
+"113","November 2013","US-IL","cat",228.666666666667
+"114","December 2013","US-IL","cat",224.294117647059
+"115","January 2014","US-IL","cat",221.052631578947
+"116","February 2014","US-IL","cat",219.333333333333
+"117","March 2014","US-IL","cat",217.8125
+"118","January 2011","US-IL","sauce",86
+"119","February 2011","US-IL","sauce",81
+"120","March 2011","US-IL","sauce",75
+"121","April 2011","US-IL","sauce",80
+"122","May 2011","US-IL","sauce",75
+"123","June 2011","US-IL","sauce",74
+"124","July 2011","US-IL","sauce",76
+"125","August 2011","US-IL","sauce",80
+"126","September 2011","US-IL","sauce",81
+"127","October 2011","US-IL","sauce",79
+"128","November 2011","US-IL","sauce",90
+"129","December 2011","US-IL","sauce",89
+"130","January 2012","US-IL","sauce",89
+"131","February 2012","US-IL","sauce",85
+"132","March 2012","US-IL","sauce",74
+"133","April 2012","US-IL","sauce",78
+"134","May 2012","US-IL","sauce",74
+"135","June 2012","US-IL","sauce",78
+"136","July 2012","US-IL","sauce",82
+"137","August 2012","US-IL","sauce",92
+"138","September 2012","US-IL","sauce",83
+"139","October 2012","US-IL","sauce",79
+"140","November 2012","US-IL","sauce",83
+"141","December 2012","US-IL","sauce",90
+"142","January 2013","US-IL","sauce",92
+"143","February 2013","US-IL","sauce",88
+"144","March 2013","US-IL","sauce",84
+"145","April 2013","US-IL","sauce",74
+"146","May 2013","US-IL","sauce",75
+"147","June 2013","US-IL","sauce",78
+"148","July 2013","US-IL","sauce",87
+"149","August 2013","US-IL","sauce",93
+"150","September 2013","US-IL","sauce",92
+"151","October 2013","US-IL","sauce",83
+"152","November 2013","US-IL","sauce",98
+"153","December 2013","US-IL","sauce",93
+"154","January 2014","US-IL","sauce",100
+"155","February 2014","US-IL","sauce",94
+"156","March 2014","US-IL","sauce",85
+"157","January 2011","US-IL","dog",362.105263157895
+"158","February 2011","US-IL","dog",355.5
+"159","March 2011","US-IL","dog",357.352941176471
+"160","April 2011","US-IL","dog",346.666666666667
+"161","May 2011","US-IL","dog",361.764705882353
+"162","June 2011","US-IL","dog",365.647058823529
+"163","July 2011","US-IL","dog",397.882352941176
+"164","August 2011","US-IL","dog",373.333333333333
+"165","September 2011","US-IL","dog",369
+"166","October 2011","US-IL","dog",359.888888888889
+"167","November 2011","US-IL","dog",364.5
+"168","December 2011","US-IL","dog",391.6
+"169","January 2012","US-IL","dog",378.25
+"170","February 2012","US-IL","dog",411.578947368421
+"171","March 2012","US-IL","dog",393.125
+"172","April 2012","US-IL","dog",394.588235294118
+"173","May 2012","US-IL","dog",397.75
+"174","June 2012","US-IL","dog",426.705882352941
+"175","July 2012","US-IL","dog",423.666666666667
+"176","August 2012","US-IL","dog",420.571428571429
+"177","September 2012","US-IL","dog",380.052631578947
+"178","October 2012","US-IL","dog",368.666666666667
+"179","November 2012","US-IL","dog",396.555555555556
+"180","December 2012","US-IL","dog",405
+"181","January 2013","US-IL","dog",423.2
+"182","February 2013","US-IL","dog",418
+"183","March 2013","US-IL","dog",371.368421052632
+"184","April 2013","US-IL","dog",383.875
+"185","May 2013","US-IL","dog",392.647058823529
+"186","June 2013","US-IL","dog",422.117647058824
+"187","July 2013","US-IL","dog",457.894736842105
+"188","August 2013","US-IL","dog",420.714285714286
+"189","September 2013","US-IL","dog",400.2
+"190","October 2013","US-IL","dog",388.789473684211
+"191","November 2013","US-IL","dog",400.909090909091
+"192","December 2013","US-IL","dog",394.142857142857
+"193","January 2014","US-IL","dog",400
+"194","February 2014","US-IL","dog",384.952380952381
+"195","March 2014","US-IL","dog",393.684210526316
+"196","January 2011","US-IL","world cup",13.5789473684211
+"197","February 2011","US-IL","world cup",40.5
+"198","March 2011","US-IL","world cup",52.9411764705882
+"199","April 2011","US-IL","world cup",35.5555555555556
+"200","May 2011","US-IL","world cup",8.82352941176471
+"201","June 2011","US-IL","world cup",26.1176470588235
+"202","July 2011","US-IL","world cup",98.3529411764706
+"203","August 2011","US-IL","world cup",17.7777777777778
+"204","September 2011","US-IL","world cup",22.5
+"205","October 2011","US-IL","world cup",21.9444444444444
+"206","November 2011","US-IL","world cup",9
+"207","December 2011","US-IL","world cup",8.9
+"208","January 2012","US-IL","world cup",8.9
+"209","February 2012","US-IL","world cup",8.94736842105263
+"210","March 2012","US-IL","world cup",9.25
+"211","April 2012","US-IL","world cup",9.17647058823529
+"212","May 2012","US-IL","world cup",9.25
+"213","June 2012","US-IL","world cup",22.9411764705882
+"214","July 2012","US-IL","world cup",13.6666666666667
+"215","August 2012","US-IL","world cup",8.76190476190476
+"216","September 2012","US-IL","world cup",13.1052631578947
+"217","October 2012","US-IL","world cup",13.1666666666667
+"218","November 2012","US-IL","world cup",4.61111111111111
+"219","December 2012","US-IL","world cup",9
+"220","January 2013","US-IL","world cup",9.2
+"221","February 2013","US-IL","world cup",8.8
+"222","March 2013","US-IL","world cup",13.2631578947368
+"223","April 2013","US-IL","world cup",9.25
+"224","May 2013","US-IL","world cup",8.82352941176471
+"225","June 2013","US-IL","world cup",32.1176470588235
+"226","July 2013","US-IL","world cup",18.3157894736842
+"227","August 2013","US-IL","world cup",8.85714285714286
+"228","September 2013","US-IL","world cup",23
+"229","October 2013","US-IL","world cup",21.8421052631579
+"230","November 2013","US-IL","world cup",26.7272727272727
+"231","December 2013","US-IL","world cup",44.2857142857143
+"232","January 2014","US-IL","world cup",18.1818181818182
+"233","February 2014","US-IL","world cup",22.3809523809524
+"234","March 2014","US-IL","world cup",26.8421052631579
+"235","January 2011","US-IL","battlestar galactica",4.52631578947368
+"236","February 2011","US-IL","battlestar galactica",4.5
+"237","March 2011","US-IL","battlestar galactica",4.41176470588235
+"238","April 2011","US-IL","battlestar galactica",4.44444444444444
+"239","May 2011","US-IL","battlestar galactica",4.41176470588235
+"240","June 2011","US-IL","battlestar galactica",4.35294117647059
+"241","July 2011","US-IL","battlestar galactica",4.47058823529412
+"242","August 2011","US-IL","battlestar galactica",4.44444444444444
+"243","September 2011","US-IL","battlestar galactica",4.5
+"244","October 2011","US-IL","battlestar galactica",4.38888888888889
+"245","November 2011","US-IL","battlestar galactica",4.5
+"246","December 2011","US-IL","battlestar galactica",4.45
+"247","January 2012","US-IL","battlestar galactica",4.45
+"248","February 2012","US-IL","battlestar galactica",4.47368421052632
+"249","March 2012","US-IL","battlestar galactica",4.625
+"250","April 2012","US-IL","battlestar galactica",4.58823529411765
+"251","May 2012","US-IL","battlestar galactica",4.625
+"252","June 2012","US-IL","battlestar galactica",4.58823529411765
+"253","July 2012","US-IL","battlestar galactica",4.55555555555556
+"254","August 2012","US-IL","battlestar galactica",4.38095238095238
+"255","September 2012","US-IL","battlestar galactica",4.36842105263158
+"256","October 2012","US-IL","battlestar galactica",4.38888888888889
+"257","November 2012","US-IL","battlestar galactica",4.61111111111111
+"258","December 2012","US-IL","battlestar galactica",4.5
+"259","January 2013","US-IL","battlestar galactica",4.6
+"260","February 2013","US-IL","battlestar galactica",4.4
+"261","March 2013","US-IL","battlestar galactica",4.42105263157895
+"262","April 2013","US-IL","battlestar galactica",4.625
+"263","May 2013","US-IL","battlestar galactica",4.41176470588235
+"264","June 2013","US-IL","battlestar galactica",4.58823529411765
+"265","July 2013","US-IL","battlestar galactica",4.57894736842105
+"266","August 2013","US-IL","battlestar galactica",4.42857142857143
+"267","September 2013","US-IL","battlestar galactica",4.6
+"268","October 2013","US-IL","battlestar galactica",4.36842105263158
+"269","November 2013","US-IL","battlestar galactica",4.45454545454546
+"270","December 2013","US-IL","battlestar galactica",0
+"271","January 2014","US-IL","battlestar galactica",4.54545454545455
+"272","February 2014","US-IL","battlestar galactica",0
+"273","March 2014","US-IL","battlestar galactica",4.47368421052632
+"274","January 2011","US-WI","pizza",384.736842105263
+"275","February 2011","US-WI","pizza",395.470588235294
+"276","March 2011","US-WI","pizza",325
+"277","April 2011","US-WI","pizza",376.470588235294
+"278","May 2011","US-WI","pizza",339.705882352941
+"279","June 2011","US-WI","pizza",312.444444444444
+"280","July 2011","US-WI","pizza",363.111111111111
+"281","August 2011","US-WI","pizza",356
+"282","September 2011","US-WI","pizza",313.434782608696
+"283","October 2011","US-WI","pizza",359.45
+"284","November 2011","US-WI","pizza",368.571428571429
+"285","December 2011","US-WI","pizza",356
+"286","January 2012","US-WI","pizza",360.238095238095
+"287","February 2012","US-WI","pizza",357
+"288","March 2012","US-WI","pizza",288.6
+"289","April 2012","US-WI","pizza",385.411764705882
+"290","May 2012","US-WI","pizza",356.941176470588
+"291","June 2012","US-WI","pizza",394.333333333333
+"292","July 2012","US-WI","pizza",422.947368421053
+"293","August 2012","US-WI","pizza",388.909090909091
+"294","September 2012","US-WI","pizza",318.166666666667
+"295","October 2012","US-WI","pizza",361.736842105263
+"296","November 2012","US-WI","pizza",305.590909090909
+"297","December 2012","US-WI","pizza",380.454545454545
+"298","January 2013","US-WI","pizza",359.636363636364
+"299","February 2013","US-WI","pizza",368
+"300","March 2013","US-WI","pizza",406.736842105263
+"301","April 2013","US-WI","pizza",370
+"302","May 2013","US-WI","pizza",362.5
+"303","June 2013","US-WI","pizza",390
+"304","July 2013","US-WI","pizza",381.142857142857
+"305","August 2013","US-WI","pizza",348.75
+"306","September 2013","US-WI","pizza",329.076923076923
+"307","October 2013","US-WI","pizza",301.818181818182
+"308","November 2013","US-WI","pizza",400.521739130435
+"309","December 2013","US-WI","pizza",348.75
+"310","January 2014","US-WI","pizza",356
+"311","February 2014","US-WI","pizza",389.428571428571
+"312","March 2014","US-WI","pizza",368.333333333333
+"313","January 2011","US-WI","ice cream",40.7368421052632
+"314","February 2011","US-WI","ice cream",42.8823529411765
+"315","March 2011","US-WI","ice cream",37.5
+"316","April 2011","US-WI","ice cream",70.5882352941177
+"317","May 2011","US-WI","ice cream",57.3529411764706
+"318","June 2011","US-WI","ice cream",65.7777777777778
+"319","July 2011","US-WI","ice cream",63.3333333333333
+"320","August 2011","US-WI","ice cream",56
+"321","September 2011","US-WI","ice cream",42.2608695652174
+"322","October 2011","US-WI","ice cream",43.45
+"323","November 2011","US-WI","ice cream",47.1428571428571
+"324","December 2011","US-WI","ice cream",46.4347826086956
+"325","January 2012","US-WI","ice cream",50.8571428571429
+"326","February 2012","US-WI","ice cream",51
+"327","March 2012","US-WI","ice cream",48.1
+"328","April 2012","US-WI","ice cream",64.2352941176471
+"329","May 2012","US-WI","ice cream",69.6470588235294
+"330","June 2012","US-WI","ice cream",86.6666666666667
+"331","July 2012","US-WI","ice cream",90.6315789473684
+"332","August 2012","US-WI","ice cream",58.5454545454545
+"333","September 2012","US-WI","ice cream",38.0416666666667
+"334","October 2012","US-WI","ice cream",33.2631578947368
+"335","November 2012","US-WI","ice cream",33.9545454545455
+"336","December 2012","US-WI","ice cream",40.9090909090909
+"337","January 2013","US-WI","ice cream",41.8181818181818
+"338","February 2013","US-WI","ice cream",36
+"339","March 2013","US-WI","ice cream",48.6315789473684
+"340","April 2013","US-WI","ice cream",45.2222222222222
+"341","May 2013","US-WI","ice cream",54.1666666666667
+"342","June 2013","US-WI","ice cream",58.5
+"343","July 2013","US-WI","ice cream",74.5714285714286
+"344","August 2013","US-WI","ice cream",58.125
+"345","September 2013","US-WI","ice cream",35.3846153846154
+"346","October 2013","US-WI","ice cream",30.1818181818182
+"347","November 2013","US-WI","ice cream",34.0869565217391
+"348","December 2013","US-WI","ice cream",34.875
+"349","January 2014","US-WI","ice cream",36
+"350","February 2014","US-WI","ice cream",40.2857142857143
+"351","March 2014","US-WI","ice cream",44.5238095238095
+"352","January 2011","US-WI","cat",217.263157894737
+"353","February 2011","US-WI","cat",233.470588235294
+"354","March 2011","US-WI","cat",195.833333333333
+"355","April 2011","US-WI","cat",221.176470588235
+"356","May 2011","US-WI","cat",216.176470588235
+"357","June 2011","US-WI","cat",217.888888888889
+"358","July 2011","US-WI","cat",215.333333333333
+"359","August 2011","US-WI","cat",204
+"360","September 2011","US-WI","cat",179.608695652174
+"361","October 2011","US-WI","cat",217.25
+"362","November 2011","US-WI","cat",227.142857142857
+"363","December 2011","US-WI","cat",205.086956521739
+"364","January 2012","US-WI","cat",228.857142857143
+"365","February 2012","US-WI","cat",221
+"366","March 2012","US-WI","cat",192.4
+"367","April 2012","US-WI","cat",238.588235294118
+"368","May 2012","US-WI","cat",208.941176470588
+"369","June 2012","US-WI","cat",221
+"370","July 2012","US-WI","cat",211.473684210526
+"371","August 2012","US-WI","cat",209.090909090909
+"372","September 2012","US-WI","cat",176.375
+"373","October 2012","US-WI","cat",228.684210526316
+"374","November 2012","US-WI","cat",218.818181818182
+"375","December 2012","US-WI","cat",261.818181818182
+"376","January 2013","US-WI","cat",250.909090909091
+"377","February 2013","US-WI","cat",240
+"378","March 2013","US-WI","cat",252
+"379","April 2013","US-WI","cat",222
+"380","May 2013","US-WI","cat",220.833333333333
+"381","June 2013","US-WI","cat",210.6
+"382","July 2013","US-WI","cat",223.714285714286
+"383","August 2013","US-WI","cat",228.625
+"384","September 2013","US-WI","cat",187.538461538462
+"385","October 2013","US-WI","cat",226.363636363636
+"386","November 2013","US-WI","cat",242.869565217391
+"387","December 2013","US-WI","cat",248
+"388","January 2014","US-WI","cat",244
+"389","February 2014","US-WI","cat",273.047619047619
+"390","March 2014","US-WI","cat",234.761904761905
+"391","January 2011","US-WI","sauce",86
+"392","February 2011","US-WI","sauce",81
+"393","March 2011","US-WI","sauce",75
+"394","April 2011","US-WI","sauce",80
+"395","May 2011","US-WI","sauce",75
+"396","June 2011","US-WI","sauce",74
+"397","July 2011","US-WI","sauce",76
+"398","August 2011","US-WI","sauce",80
+"399","September 2011","US-WI","sauce",81
+"400","October 2011","US-WI","sauce",79
+"401","November 2011","US-WI","sauce",90
+"402","December 2011","US-WI","sauce",89
+"403","January 2012","US-WI","sauce",89
+"404","February 2012","US-WI","sauce",85
+"405","March 2012","US-WI","sauce",74
+"406","April 2012","US-WI","sauce",78
+"407","May 2012","US-WI","sauce",74
+"408","June 2012","US-WI","sauce",78
+"409","July 2012","US-WI","sauce",82
+"410","August 2012","US-WI","sauce",92
+"411","September 2012","US-WI","sauce",83
+"412","October 2012","US-WI","sauce",79
+"413","November 2012","US-WI","sauce",83
+"414","December 2012","US-WI","sauce",90
+"415","January 2013","US-WI","sauce",92
+"416","February 2013","US-WI","sauce",88
+"417","March 2013","US-WI","sauce",84
+"418","April 2013","US-WI","sauce",74
+"419","May 2013","US-WI","sauce",75
+"420","June 2013","US-WI","sauce",78
+"421","July 2013","US-WI","sauce",87
+"422","August 2013","US-WI","sauce",93
+"423","September 2013","US-WI","sauce",92
+"424","October 2013","US-WI","sauce",83
+"425","November 2013","US-WI","sauce",98
+"426","December 2013","US-WI","sauce",93
+"427","January 2014","US-WI","sauce",100
+"428","February 2014","US-WI","sauce",94
+"429","March 2014","US-WI","sauce",85
+"430","January 2011","US-WI","dog",372.666666666667
+"431","February 2011","US-WI","dog",374.625
+"432","March 2011","US-WI","dog",357.352941176471
+"433","April 2011","US-WI","dog",425
+"434","May 2011","US-WI","dog",407.8125
+"435","June 2011","US-WI","dog",370
+"436","July 2011","US-WI","dog",384.470588235294
+"437","August 2011","US-WI","dog",348
+"438","September 2011","US-WI","dog",301.909090909091
+"439","October 2011","US-WI","dog",327.85
+"440","November 2011","US-WI","dog",360
+"441","December 2011","US-WI","dog",351.954545454545
+"442","January 2012","US-WI","dog",368.714285714286
+"443","February 2012","US-WI","dog",391
+"444","March 2012","US-WI","dog",334.947368421053
+"445","April 2012","US-WI","dog",412.941176470588
+"446","May 2012","US-WI","dog",365.647058823529
+"447","June 2012","US-WI","dog",394.333333333333
+"448","July 2012","US-WI","dog",400.888888888889
+"449","August 2012","US-WI","dog",398.666666666667
+"450","September 2012","US-WI","dog",317.565217391304
+"451","October 2012","US-WI","dog",345.105263157895
+"452","November 2012","US-WI","dog",347.809523809524
+"453","December 2012","US-WI","dog",372.857142857143
+"454","January 2013","US-WI","dog",376.761904761905
+"455","February 2013","US-WI","dog",381.333333333333
+"456","March 2013","US-WI","dog",384.631578947368
+"457","April 2013","US-WI","dog",374.111111111111
+"458","May 2013","US-WI","dog",379.411764705882
+"459","June 2013","US-WI","dog",362.7
+"460","July 2013","US-WI","dog",435
+"461","August 2013","US-WI","dog",384.130434782609
+"462","September 2013","US-WI","dog",323.84
+"463","October 2013","US-WI","dog",343.857142857143
+"464","November 2013","US-WI","dog",400.909090909091
+"465","December 2013","US-WI","dog",363.913043478261
+"466","January 2014","US-WI","dog",387.5
+"467","February 2014","US-WI","dog",418.3
+"468","March 2014","US-WI","dog",395.25
+"469","January 2011","US-WI","world cup",9.55555555555556
+"470","February 2011","US-WI","world cup",25.3125
+"471","March 2011","US-WI","world cup",30.8823529411765
+"472","April 2011","US-WI","world cup",20
+"473","May 2011","US-WI","world cup",9.375
+"474","June 2011","US-WI","world cup",21.7647058823529
+"475","July 2011","US-WI","world cup",89.4117647058824
+"476","August 2011","US-WI","world cup",12
+"477","September 2011","US-WI","world cup",18.4090909090909
+"478","October 2011","US-WI","world cup",19.75
+"479","November 2011","US-WI","world cup",8.57142857142857
+"480","December 2011","US-WI","world cup",8.09090909090909
+"481","January 2012","US-WI","world cup",4.23809523809524
+"482","February 2012","US-WI","world cup",8.5
+"483","March 2012","US-WI","world cup",7.78947368421053
+"484","April 2012","US-WI","world cup",4.58823529411765
+"485","May 2012","US-WI","world cup",8.70588235294118
+"486","June 2012","US-WI","world cup",17.3333333333333
+"487","July 2012","US-WI","world cup",9.11111111111111
+"488","August 2012","US-WI","world cup",8.76190476190476
+"489","September 2012","US-WI","world cup",7.21739130434783
+"490","October 2012","US-WI","world cup",8.31578947368421
+"491","November 2012","US-WI","world cup",3.95238095238095
+"492","December 2012","US-WI","world cup",4.28571428571429
+"493","January 2013","US-WI","world cup",4.38095238095238
+"494","February 2013","US-WI","world cup",8.38095238095238
+"495","March 2013","US-WI","world cup",8.84210526315789
+"496","April 2013","US-WI","world cup",4.11111111111111
+"497","May 2013","US-WI","world cup",8.82352941176471
+"498","June 2013","US-WI","world cup",15.6
+"499","July 2013","US-WI","world cup",13.05
+"500","August 2013","US-WI","world cup",8.08695652173913
+"501","September 2013","US-WI","world cup",11.04
+"502","October 2013","US-WI","world cup",11.8571428571429
+"503","November 2013","US-WI","world cup",17.8181818181818
+"504","December 2013","US-WI","world cup",24.2608695652174
+"505","January 2014","US-WI","world cup",12.5
+"506","February 2014","US-WI","world cup",14.1
+"507","March 2014","US-WI","world cup",17
+"508","January 2011","US-WI","battlestar galactica",4.77777777777778
+"509","February 2011","US-WI","battlestar galactica",5.0625
+"510","March 2011","US-WI","battlestar galactica",4.41176470588235
+"511","April 2011","US-WI","battlestar galactica",5
+"512","May 2011","US-WI","battlestar galactica",4.6875
+"513","June 2011","US-WI","battlestar galactica",4.35294117647059
+"514","July 2011","US-WI","battlestar galactica",4.47058823529412
+"515","August 2011","US-WI","battlestar galactica",4
+"516","September 2011","US-WI","battlestar galactica",3.68181818181818
+"517","October 2011","US-WI","battlestar galactica",3.95
+"518","November 2011","US-WI","battlestar galactica",4.28571428571429
+"519","December 2011","US-WI","battlestar galactica",4.04545454545455
+"520","January 2012","US-WI","battlestar galactica",4.23809523809524
+"521","February 2012","US-WI","battlestar galactica",4.25
+"522","March 2012","US-WI","battlestar galactica",3.89473684210526
+"523","April 2012","US-WI","battlestar galactica",4.58823529411765
+"524","May 2012","US-WI","battlestar galactica",4.35294117647059
+"525","June 2012","US-WI","battlestar galactica",4.33333333333333
+"526","July 2012","US-WI","battlestar galactica",4.55555555555556
+"527","August 2012","US-WI","battlestar galactica",4.38095238095238
+"528","September 2012","US-WI","battlestar galactica",3.60869565217391
+"529","October 2012","US-WI","battlestar galactica",4.15789473684211
+"530","November 2012","US-WI","battlestar galactica",3.95238095238095
+"531","December 2012","US-WI","battlestar galactica",4.28571428571429
+"532","January 2013","US-WI","battlestar galactica",4.38095238095238
+"533","February 2013","US-WI","battlestar galactica",4.19047619047619
+"534","March 2013","US-WI","battlestar galactica",4.42105263157895
+"535","April 2013","US-WI","battlestar galactica",4.11111111111111
+"536","May 2013","US-WI","battlestar galactica",4.41176470588235
+"537","June 2013","US-WI","battlestar galactica",3.9
+"538","July 2013","US-WI","battlestar galactica",4.35
+"539","August 2013","US-WI","battlestar galactica",4.04347826086957
+"540","September 2013","US-WI","battlestar galactica",3.68
+"541","October 2013","US-WI","battlestar galactica",3.95238095238095
+"542","November 2013","US-WI","battlestar galactica",4.45454545454546
+"543","December 2013","US-WI","battlestar galactica",4.04347826086957
+"544","January 2014","US-WI","battlestar galactica",4.16666666666667
+"545","February 2014","US-WI","battlestar galactica",4.7
+"546","March 2014","US-WI","battlestar galactica",4.25
+"547","January 2011","US-IA","pizza",424.625
+"548","February 2011","US-IA","pizza",435.375
+"549","March 2011","US-IA","pizza",407.142857142857
+"550","April 2011","US-IA","pizza",448
+"551","May 2011","US-IA","pizza",375
+"552","June 2011","US-IA","pizza",379.25
+"553","July 2011","US-IA","pizza",371.058823529412
+"554","August 2011","US-IA","pizza",386.666666666667
+"555","September 2011","US-IA","pizza",405
+"556","October 2011","US-IA","pizza",463.466666666667
+"557","November 2011","US-IA","pizza",546
+"558","December 2011","US-IA","pizza",445
+"559","January 2012","US-IA","pizza",380.722222222222
+"560","February 2012","US-IA","pizza",459
+"561","March 2012","US-IA","pizza",339.529411764706
+"562","April 2012","US-IA","pizza",365.625
+"563","May 2012","US-IA","pizza",396.428571428571
+"564","June 2012","US-IA","pizza",380.823529411765
+"565","July 2012","US-IA","pizza",352.6
+"566","August 2012","US-IA","pizza",405.882352941177
+"567","September 2012","US-IA","pizza",400.352941176471
+"568","October 2012","US-IA","pizza",348.529411764706
+"569","November 2012","US-IA","pizza",355.055555555556
+"570","December 2012","US-IA","pizza",383.684210526316
+"571","January 2013","US-IA","pizza",419.111111111111
+"572","February 2013","US-IA","pizza",379.789473684211
+"573","March 2013","US-IA","pizza",405.176470588235
+"574","April 2013","US-IA","pizza",351.5
+"575","May 2013","US-IA","pizza",405
+"576","June 2013","US-IA","pizza",453.375
+"577","July 2013","US-IA","pizza",496.411764705882
+"578","August 2013","US-IA","pizza",474.789473684211
+"579","September 2013","US-IA","pizza",336
+"580","October 2013","US-IA","pizza",434.529411764706
+"581","November 2013","US-IA","pizza",453.894736842105
+"582","December 2013","US-IA","pizza",506.333333333333
+"583","January 2014","US-IA","pizza",500
+"584","February 2014","US-IA","pizza",547.411764705882
+"585","March 2014","US-IA","pizza",458.055555555556
+"586","January 2011","US-IA","ice cream",48.375
+"587","February 2011","US-IA","ice cream",50.625
+"588","March 2011","US-IA","ice cream",48.2142857142857
+"589","April 2011","US-IA","ice cream",80
+"590","May 2011","US-IA","ice cream",65
+"591","June 2011","US-IA","ice cream",74
+"592","July 2011","US-IA","ice cream",76
+"593","August 2011","US-IA","ice cream",48.8888888888889
+"594","September 2011","US-IA","ice cream",52.4117647058824
+"595","October 2011","US-IA","ice cream",57.9333333333333
+"596","November 2011","US-IA","ice cream",54
+"597","December 2011","US-IA","ice cream",57.5882352941177
+"598","January 2012","US-IA","ice cream",49.4444444444444
+"599","February 2012","US-IA","ice cream",51
+"600","March 2012","US-IA","ice cream",52.2352941176471
+"601","April 2012","US-IA","ice cream",68.25
+"602","May 2012","US-IA","ice cream",84.5714285714286
+"603","June 2012","US-IA","ice cream",87.1764705882353
+"604","July 2012","US-IA","ice cream",77.9
+"605","August 2012","US-IA","ice cream",70.3529411764706
+"606","September 2012","US-IA","ice cream",48.8235294117647
+"607","October 2012","US-IA","ice cream",37.1764705882353
+"608","November 2012","US-IA","ice cream",36.8888888888889
+"609","December 2012","US-IA","ice cream",47.3684210526316
+"610","January 2013","US-IA","ice cream",51.1111111111111
+"611","February 2013","US-IA","ice cream",41.6842105263158
+"612","March 2013","US-IA","ice cream",44.4705882352941
+"613","April 2013","US-IA","ice cream",41.625
+"614","May 2013","US-IA","ice cream",60
+"615","June 2013","US-IA","ice cream",73.125
+"616","July 2013","US-IA","ice cream",92.1176470588235
+"617","August 2013","US-IA","ice cream",58.7368421052632
+"618","September 2013","US-IA","ice cream",40
+"619","October 2013","US-IA","ice cream",39.0588235294118
+"620","November 2013","US-IA","ice cream",41.2631578947368
+"621","December 2013","US-IA","ice cream",41.3333333333333
+"622","January 2014","US-IA","ice cream",40
+"623","February 2014","US-IA","ice cream",49.7647058823529
+"624","March 2014","US-IA","ice cream",47.2222222222222
+"625","January 2011","US-IA","cat",220.375
+"626","February 2011","US-IA","cat",212.625
+"627","March 2011","US-IA","cat",225
+"628","April 2011","US-IA","cat",202.666666666667
+"629","May 2011","US-IA","cat",210
+"630","June 2011","US-IA","cat",226.625
+"631","July 2011","US-IA","cat",214.588235294118
+"632","August 2011","US-IA","cat",177.777777777778
+"633","September 2011","US-IA","cat",214.411764705882
+"634","October 2011","US-IA","cat",252.8
+"635","November 2011","US-IA","cat",288
+"636","December 2011","US-IA","cat",261.764705882353
+"637","January 2012","US-IA","cat",212.611111111111
+"638","February 2012","US-IA","cat",255
+"639","March 2012","US-IA","cat",200.235294117647
+"640","April 2012","US-IA","cat",219.375
+"641","May 2012","US-IA","cat",227.285714285714
+"642","June 2012","US-IA","cat",201.882352941176
+"643","July 2012","US-IA","cat",184.5
+"644","August 2012","US-IA","cat",238.117647058824
+"645","September 2012","US-IA","cat",214.823529411765
+"646","October 2012","US-IA","cat",232.352941176471
+"647","November 2012","US-IA","cat",235.166666666667
+"648","December 2012","US-IA","cat",284.210526315789
+"649","January 2013","US-IA","cat",250.444444444444
+"650","February 2013","US-IA","cat",226.947368421053
+"651","March 2013","US-IA","cat",237.176470588235
+"652","April 2013","US-IA","cat",222
+"653","May 2013","US-IA","cat",235
+"654","June 2013","US-IA","cat",258.375
+"655","July 2013","US-IA","cat",245.647058823529
+"656","August 2013","US-IA","cat",239.842105263158
+"657","September 2013","US-IA","cat",196
+"658","October 2013","US-IA","cat",263.647058823529
+"659","November 2013","US-IA","cat",278.526315789474
+"660","December 2013","US-IA","cat",263.5
+"661","January 2014","US-IA","cat",250
+"662","February 2014","US-IA","cat",287.529411764706
+"663","March 2014","US-IA","cat",240.833333333333
+"664","January 2011","US-IA","sauce",86
+"665","February 2011","US-IA","sauce",81
+"666","March 2011","US-IA","sauce",75
+"667","April 2011","US-IA","sauce",80
+"668","May 2011","US-IA","sauce",75
+"669","June 2011","US-IA","sauce",74
+"670","July 2011","US-IA","sauce",76
+"671","August 2011","US-IA","sauce",80
+"672","September 2011","US-IA","sauce",81
+"673","October 2011","US-IA","sauce",79
+"674","November 2011","US-IA","sauce",90
+"675","December 2011","US-IA","sauce",89
+"676","January 2012","US-IA","sauce",89
+"677","February 2012","US-IA","sauce",85
+"678","March 2012","US-IA","sauce",74
+"679","April 2012","US-IA","sauce",78
+"680","May 2012","US-IA","sauce",74
+"681","June 2012","US-IA","sauce",78
+"682","July 2012","US-IA","sauce",82
+"683","August 2012","US-IA","sauce",92
+"684","September 2012","US-IA","sauce",83
+"685","October 2012","US-IA","sauce",79
+"686","November 2012","US-IA","sauce",83
+"687","December 2012","US-IA","sauce",90
+"688","January 2013","US-IA","sauce",92
+"689","February 2013","US-IA","sauce",88
+"690","March 2013","US-IA","sauce",84
+"691","April 2013","US-IA","sauce",74
+"692","May 2013","US-IA","sauce",75
+"693","June 2013","US-IA","sauce",78
+"694","July 2013","US-IA","sauce",87
+"695","August 2013","US-IA","sauce",93
+"696","September 2013","US-IA","sauce",92
+"697","October 2013","US-IA","sauce",83
+"698","November 2013","US-IA","sauce",98
+"699","December 2013","US-IA","sauce",93
+"700","January 2014","US-IA","sauce",100
+"701","February 2014","US-IA","sauce",94
+"702","March 2014","US-IA","sauce",85
+"703","January 2011","US-IA","dog",387
+"704","February 2011","US-IA","dog",364.5
+"705","March 2011","US-IA","dog",425
+"706","April 2011","US-IA","dog",395
+"707","May 2011","US-IA","dog",384.375
+"708","June 2011","US-IA","dog",353.555555555556
+"709","July 2011","US-IA","dog",392.666666666667
+"710","August 2011","US-IA","dog",378.947368421053
+"711","September 2011","US-IA","dog",341.052631578947
+"712","October 2011","US-IA","dog",414.75
+"713","November 2011","US-IA","dog",500.625
+"714","December 2011","US-IA","dog",449.944444444444
+"715","January 2012","US-IA","dog",393.473684210526
+"716","February 2012","US-IA","dog",478.125
+"717","March 2012","US-IA","dog",357.666666666667
+"718","April 2012","US-IA","dog",390
+"719","May 2012","US-IA","dog",424.266666666667
+"720","June 2012","US-IA","dog",407.333333333333
+"721","July 2012","US-IA","dog",367.047619047619
+"722","August 2012","US-IA","dog",435.789473684211
+"723","September 2012","US-IA","dog",391.944444444444
+"724","October 2012","US-IA","dog",368.666666666667
+"725","November 2012","US-IA","dog",344.45
+"726","December 2012","US-IA","dog",387
+"727","January 2013","US-IA","dog",430.947368421053
+"728","February 2013","US-IA","dog",374
+"729","March 2013","US-IA","dog",396.666666666667
+"730","April 2013","US-IA","dog",404.823529411765
+"731","May 2013","US-IA","dog",403.125
+"732","June 2013","US-IA","dog",426.705882352941
+"733","July 2013","US-IA","dog",483.333333333333
+"734","August 2013","US-IA","dog",437.1
+"735","September 2013","US-IA","dog",322
+"736","October 2013","US-IA","dog",401.166666666667
+"737","November 2013","US-IA","dog",429.333333333333
+"738","December 2013","US-IA","dog",460.105263157895
+"739","January 2014","US-IA","dog",414.285714285714
+"740","February 2014","US-IA","dog",440.315789473684
+"741","March 2014","US-IA","dog",420.526315789474
+"742","January 2011","US-IA","world cup",9.55555555555556
+"743","February 2011","US-IA","world cup",22.5
+"744","March 2011","US-IA","world cup",30
+"745","April 2011","US-IA","world cup",20
+"746","May 2011","US-IA","world cup",9.375
+"747","June 2011","US-IA","world cup",16.4444444444444
+"748","July 2011","US-IA","world cup",88.6666666666667
+"749","August 2011","US-IA","world cup",16.8421052631579
+"750","September 2011","US-IA","world cup",17.0526315789474
+"751","October 2011","US-IA","world cup",14.8125
+"752","November 2011","US-IA","world cup",11.25
+"753","December 2011","US-IA","world cup",9.88888888888889
+"754","January 2012","US-IA","world cup",9.36842105263158
+"755","February 2012","US-IA","world cup",5.3125
+"756","March 2012","US-IA","world cup",8.22222222222222
+"757","April 2012","US-IA","world cup",4.58823529411765
+"758","May 2012","US-IA","world cup",9.86666666666667
+"759","June 2012","US-IA","world cup",17.3333333333333
+"760","July 2012","US-IA","world cup",7.80952380952381
+"761","August 2012","US-IA","world cup",9.68421052631579
+"762","September 2012","US-IA","world cup",9.22222222222222
+"763","October 2012","US-IA","world cup",8.77777777777778
+"764","November 2012","US-IA","world cup",4.15
+"765","December 2012","US-IA","world cup",4.5
+"766","January 2013","US-IA","world cup",4.84210526315789
+"767","February 2013","US-IA","world cup",8.8
+"768","March 2013","US-IA","world cup",9.33333333333333
+"769","April 2013","US-IA","world cup",4.35294117647059
+"770","May 2013","US-IA","world cup",9.375
+"771","June 2013","US-IA","world cup",27.5294117647059
+"772","July 2013","US-IA","world cup",14.5
+"773","August 2013","US-IA","world cup",4.65
+"774","September 2013","US-IA","world cup",11.5
+"775","October 2013","US-IA","world cup",18.4444444444444
+"776","November 2013","US-IA","world cup",18.6666666666667
+"777","December 2013","US-IA","world cup",24.4736842105263
+"778","January 2014","US-IA","world cup",9.52380952380952
+"779","February 2014","US-IA","world cup",14.8421052631579
+"780","March 2014","US-IA","world cup",13.4210526315789
+"781","January 2011","US-IA","battlestar galactica",4.77777777777778
+"782","February 2011","US-IA","battlestar galactica",4.5
+"783","March 2011","US-IA","battlestar galactica",5
+"784","April 2011","US-IA","battlestar galactica",5
+"785","May 2011","US-IA","battlestar galactica",4.6875
+"786","June 2011","US-IA","battlestar galactica",4.11111111111111
+"787","July 2011","US-IA","battlestar galactica",4.22222222222222
+"788","August 2011","US-IA","battlestar galactica",4.21052631578947
+"789","September 2011","US-IA","battlestar galactica",4.26315789473684
+"790","October 2011","US-IA","battlestar galactica",4.9375
+"791","November 2011","US-IA","battlestar galactica",5.625
+"792","December 2011","US-IA","battlestar galactica",4.94444444444444
+"793","January 2012","US-IA","battlestar galactica",4.68421052631579
+"794","February 2012","US-IA","battlestar galactica",5.3125
+"795","March 2012","US-IA","battlestar galactica",4.11111111111111
+"796","April 2012","US-IA","battlestar galactica",4.58823529411765
+"797","May 2012","US-IA","battlestar galactica",9.86666666666667
+"798","June 2012","US-IA","battlestar galactica",4.33333333333333
+"799","July 2012","US-IA","battlestar galactica",3.9047619047619
+"800","August 2012","US-IA","battlestar galactica",4.84210526315789
+"801","September 2012","US-IA","battlestar galactica",4.61111111111111
+"802","October 2012","US-IA","battlestar galactica",0
+"803","November 2012","US-IA","battlestar galactica",4.15
+"804","December 2012","US-IA","battlestar galactica",4.5
+"805","January 2013","US-IA","battlestar galactica",4.84210526315789
+"806","February 2013","US-IA","battlestar galactica",4.4
+"807","March 2013","US-IA","battlestar galactica",4.66666666666667
+"808","April 2013","US-IA","battlestar galactica",4.35294117647059
+"809","May 2013","US-IA","battlestar galactica",0
+"810","June 2013","US-IA","battlestar galactica",4.58823529411765
+"811","July 2013","US-IA","battlestar galactica",0
+"812","August 2013","US-IA","battlestar galactica",0
+"813","September 2013","US-IA","battlestar galactica",3.83333333333333
+"814","October 2013","US-IA","battlestar galactica",0
+"815","November 2013","US-IA","battlestar galactica",4.66666666666667
+"816","December 2013","US-IA","battlestar galactica",0
+"817","January 2014","US-IA","battlestar galactica",4.76190476190476
+"818","February 2014","US-IA","battlestar galactica",4.94736842105263
+"819","March 2014","US-IA","battlestar galactica",4.47368421052632
+"820","January 2011","US-OH","pizza",448.428571428571
+"821","February 2011","US-OH","pizza",399.6
+"822","March 2011","US-OH","pizza",369.642857142857
+"823","April 2011","US-OH","pizza",455.384615384615
+"824","May 2011","US-OH","pizza",432.692307692308
+"825","June 2011","US-OH","pizza",466.769230769231
+"826","July 2011","US-OH","pizza",477.714285714286
+"827","August 2011","US-OH","pizza",414.117647058824
+"828","September 2011","US-OH","pizza",480.6
+"829","October 2011","US-OH","pizza",484.533333333333
+"830","November 2011","US-OH","pizza",517.5
+"831","December 2011","US-OH","pizza",556.25
+"832","January 2012","US-OH","pizza",489.5
+"833","February 2012","US-OH","pizza",464.666666666667
+"834","March 2012","US-OH","pizza",449.692307692308
+"835","April 2012","US-OH","pizza",456.857142857143
+"836","May 2012","US-OH","pizza",417.571428571429
+"837","June 2012","US-OH","pizza",484.714285714286
+"838","July 2012","US-OH","pizza",410
+"839","August 2012","US-OH","pizza",414
+"840","September 2012","US-OH","pizza",425.375
+"841","October 2012","US-OH","pizza",400.266666666667
+"842","November 2012","US-OH","pizza",409.8125
+"843","December 2012","US-OH","pizza",425
+"844","January 2013","US-OH","pizza",438.352941176471
+"845","February 2013","US-OH","pizza",440
+"846","March 2013","US-OH","pizza",420
+"847","April 2013","US-OH","pizza",384.8
+"848","May 2013","US-OH","pizza",428.571428571429
+"849","June 2013","US-OH","pizza",429
+"850","July 2013","US-OH","pizza",478.5
+"851","August 2013","US-OH","pizza",423.666666666667
+"852","September 2013","US-OH","pizza",429.333333333333
+"853","October 2013","US-OH","pizza",453.733333333333
+"854","November 2013","US-OH","pizza",457.333333333333
+"855","December 2013","US-OH","pizza",481.411764705882
+"856","January 2014","US-OH","pizza",494.444444444444
+"857","February 2014","US-OH","pizza",458.941176470588
+"858","March 2014","US-OH","pizza",462.1875
+"859","January 2011","US-OH","ice cream",49.1428571428571
+"860","February 2011","US-OH","ice cream",43.2
+"861","March 2011","US-OH","ice cream",48.2142857142857
+"862","April 2011","US-OH","ice cream",98.4615384615385
+"863","May 2011","US-OH","ice cream",80.7692307692308
+"864","June 2011","US-OH","ice cream",91.0769230769231
+"865","July 2011","US-OH","ice cream",92.2857142857143
+"866","August 2011","US-OH","ice cream",61.1764705882353
+"867","September 2011","US-OH","ice cream",54
+"868","October 2011","US-OH","ice cream",57.9333333333333
+"869","November 2011","US-OH","ice cream",56.25
+"870","December 2011","US-OH","ice cream",55.625
+"871","January 2012","US-OH","ice cream",61.1875
+"872","February 2012","US-OH","ice cream",62.3333333333333
+"873","March 2012","US-OH","ice cream",68.3076923076923
+"874","April 2012","US-OH","ice cream",72.4285714285714
+"875","May 2012","US-OH","ice cream",95.1428571428572
+"876","June 2012","US-OH","ice cream",105.857142857143
+"877","July 2012","US-OH","ice cream",91.6470588235294
+"878","August 2012","US-OH","ice cream",71.5555555555556
+"879","September 2012","US-OH","ice cream",51.875
+"880","October 2012","US-OH","ice cream",42.1333333333333
+"881","November 2012","US-OH","ice cream",41.5
+"882","December 2012","US-OH","ice cream",40
+"883","January 2013","US-OH","ice cream",43.2941176470588
+"884","February 2013","US-OH","ice cream",41.4117647058824
+"885","March 2013","US-OH","ice cream",47.25
+"886","April 2013","US-OH","ice cream",54.2666666666667
+"887","May 2013","US-OH","ice cream",75
+"888","June 2013","US-OH","ice cream",73.125
+"889","July 2013","US-OH","ice cream",87
+"890","August 2013","US-OH","ice cream",62
+"891","September 2013","US-OH","ice cream",51.1111111111111
+"892","October 2013","US-OH","ice cream",38.7333333333333
+"893","November 2013","US-OH","ice cream",38.1111111111111
+"894","December 2013","US-OH","ice cream",38.2941176470588
+"895","January 2014","US-OH","ice cream",50
+"896","February 2014","US-OH","ice cream",44.2352941176471
+"897","March 2014","US-OH","ice cream",47.8125
+"898","January 2011","US-OH","cat",208.857142857143
+"899","February 2011","US-OH","cat",178.2
+"900","March 2011","US-OH","cat",171.428571428571
+"901","April 2011","US-OH","cat",221.538461538462
+"902","May 2011","US-OH","cat",225
+"903","June 2011","US-OH","cat",227.692307692308
+"904","July 2011","US-OH","cat",211.714285714286
+"905","August 2011","US-OH","cat",174.117647058824
+"906","September 2011","US-OH","cat",210.6
+"907","October 2011","US-OH","cat",221.2
+"908","November 2011","US-OH","cat",219.375
+"909","December 2011","US-OH","cat",211.375
+"910","January 2012","US-OH","cat",211.375
+"911","February 2012","US-OH","cat",226.666666666667
+"912","March 2012","US-OH","cat",216.307692307692
+"913","April 2012","US-OH","cat",211.714285714286
+"914","May 2012","US-OH","cat",206.142857142857
+"915","June 2012","US-OH","cat",222.857142857143
+"916","July 2012","US-OH","cat",188.117647058824
+"917","August 2012","US-OH","cat",199.333333333333
+"918","September 2012","US-OH","cat",212.6875
+"919","October 2012","US-OH","cat",226.466666666667
+"920","November 2012","US-OH","cat",217.875
+"921","December 2012","US-OH","cat",250
+"922","January 2013","US-OH","cat",238.117647058824
+"923","February 2013","US-OH","cat",232.941176470588
+"924","March 2013","US-OH","cat",225.75
+"925","April 2013","US-OH","cat",212.133333333333
+"926","May 2013","US-OH","cat",225
+"927","June 2013","US-OH","cat",214.5
+"928","July 2013","US-OH","cat",233.8125
+"929","August 2013","US-OH","cat",222.166666666667
+"930","September 2013","US-OH","cat",219.777777777778
+"931","October 2013","US-OH","cat",254.533333333333
+"932","November 2013","US-OH","cat",239.555555555556
+"933","December 2013","US-OH","cat",240.705882352941
+"934","January 2014","US-OH","cat",244.444444444444
+"935","February 2014","US-OH","cat",254.352941176471
+"936","March 2014","US-OH","cat",233.75
+"937","January 2011","US-OH","sauce",86
+"938","February 2011","US-OH","sauce",81
+"939","March 2011","US-OH","sauce",75
+"940","April 2011","US-OH","sauce",80
+"941","May 2011","US-OH","sauce",75
+"942","June 2011","US-OH","sauce",74
+"943","July 2011","US-OH","sauce",76
+"944","August 2011","US-OH","sauce",80
+"945","September 2011","US-OH","sauce",81
+"946","October 2011","US-OH","sauce",79
+"947","November 2011","US-OH","sauce",90
+"948","December 2011","US-OH","sauce",89
+"949","January 2012","US-OH","sauce",89
+"950","February 2012","US-OH","sauce",85
+"951","March 2012","US-OH","sauce",74
+"952","April 2012","US-OH","sauce",78
+"953","May 2012","US-OH","sauce",74
+"954","June 2012","US-OH","sauce",78
+"955","July 2012","US-OH","sauce",82
+"956","August 2012","US-OH","sauce",92
+"957","September 2012","US-OH","sauce",83
+"958","October 2012","US-OH","sauce",79
+"959","November 2012","US-OH","sauce",83
+"960","December 2012","US-OH","sauce",90
+"961","January 2013","US-OH","sauce",92
+"962","February 2013","US-OH","sauce",88
+"963","March 2013","US-OH","sauce",84
+"964","April 2013","US-OH","sauce",74
+"965","May 2013","US-OH","sauce",75
+"966","June 2013","US-OH","sauce",78
+"967","July 2013","US-OH","sauce",87
+"968","August 2013","US-OH","sauce",93
+"969","September 2013","US-OH","sauce",92
+"970","October 2013","US-OH","sauce",83
+"971","November 2013","US-OH","sauce",98
+"972","December 2013","US-OH","sauce",93
+"973","January 2014","US-OH","sauce",100
+"974","February 2014","US-OH","sauce",94
+"975","March 2014","US-OH","sauce",85
+"976","January 2011","US-OH","dog",435.375
+"977","February 2011","US-OH","dog",376.411764705882
+"978","March 2011","US-OH","dog",395
+"979","April 2011","US-OH","dog",445.714285714286
+"980","May 2011","US-OH","dog",444.642857142857
+"981","June 2011","US-OH","dog",454.571428571429
+"982","July 2011","US-OH","dog",422.75
+"983","August 2011","US-OH","dog",377.777777777778
+"984","September 2011","US-OH","dog",394.875
+"985","October 2011","US-OH","dog",399.9375
+"986","November 2011","US-OH","dog",434.117647058823
+"987","December 2011","US-OH","dog",440.055555555556
+"988","January 2012","US-OH","dog",445
+"989","February 2012","US-OH","dog",465
+"990","March 2012","US-OH","dog",444
+"991","April 2012","US-OH","dog",447.2
+"992","May 2012","US-OH","dog",393.125
+"993","June 2012","US-OH","dog",438.75
+"994","July 2012","US-OH","dog",405.684210526316
+"995","August 2012","US-OH","dog",423.2
+"996","September 2012","US-OH","dog",401.166666666667
+"997","October 2012","US-OH","dog",399.9375
+"998","November 2012","US-OH","dog",405.777777777778
+"999","December 2012","US-OH","dog",405
+"1000","January 2013","US-OH","dog",440.631578947368
+"1001","February 2013","US-OH","dog",464.444444444444
+"1002","March 2013","US-OH","dog",424.941176470588
+"1003","April 2013","US-OH","dog",425.5
+"1004","May 2013","US-OH","dog",445
+"1005","June 2013","US-OH","dog",417.529411764706
+"1006","July 2013","US-OH","dog",483.333333333333
+"1007","August 2013","US-OH","dog",465
+"1008","September 2013","US-OH","dog",421.263157894737
+"1009","October 2013","US-OH","dog",429.647058823529
+"1010","November 2013","US-OH","dog",453.894736842105
+"1011","December 2013","US-OH","dog",450.315789473684
+"1012","January 2014","US-OH","dog",455
+"1013","February 2014","US-OH","dog",459.555555555556
+"1014","March 2014","US-OH","dog",410.833333333333
+"1015","January 2011","US-OH","world cup",10.75
+"1016","February 2011","US-OH","world cup",23.8235294117647
+"1017","March 2011","US-OH","world cup",35
+"1018","April 2011","US-OH","world cup",28.5714285714286
+"1019","May 2011","US-OH","world cup",10.7142857142857
+"1020","June 2011","US-OH","world cup",26.4285714285714
+"1021","July 2011","US-OH","world cup",85.5
+"1022","August 2011","US-OH","world cup",13.3333333333333
+"1023","September 2011","US-OH","world cup",20.25
+"1024","October 2011","US-OH","world cup",19.75
+"1025","November 2011","US-OH","world cup",10.5882352941176
+"1026","December 2011","US-OH","world cup",9.88888888888889
+"1027","January 2012","US-OH","world cup",4.94444444444444
+"1028","February 2012","US-OH","world cup",5
+"1029","March 2012","US-OH","world cup",5.28571428571429
+"1030","April 2012","US-OH","world cup",5.2
+"1031","May 2012","US-OH","world cup",9.25
+"1032","June 2012","US-OH","world cup",19.5
+"1033","July 2012","US-OH","world cup",8.63157894736842
+"1034","August 2012","US-OH","world cup",9.2
+"1035","September 2012","US-OH","world cup",9.22222222222222
+"1036","October 2012","US-OH","world cup",9.875
+"1037","November 2012","US-OH","world cup",4.61111111111111
+"1038","December 2012","US-OH","world cup",4.5
+"1039","January 2013","US-OH","world cup",4.84210526315789
+"1040","February 2013","US-OH","world cup",9.77777777777778
+"1041","March 2013","US-OH","world cup",9.88235294117647
+"1042","April 2013","US-OH","world cup",4.625
+"1043","May 2013","US-OH","world cup",5
+"1044","June 2013","US-OH","world cup",22.9411764705882
+"1045","July 2013","US-OH","world cup",14.5
+"1046","August 2013","US-OH","world cup",9.78947368421053
+"1047","September 2013","US-OH","world cup",19.3684210526316
+"1048","October 2013","US-OH","world cup",14.6470588235294
+"1049","November 2013","US-OH","world cup",15.4736842105263
+"1050","December 2013","US-OH","world cup",29.3684210526316
+"1051","January 2014","US-OH","world cup",15
+"1052","February 2014","US-OH","world cup",15.6666666666667
+"1053","March 2014","US-OH","world cup",18.8888888888889
+"1054","January 2011","US-OH","battlestar galactica",5.375
+"1055","February 2011","US-OH","battlestar galactica",4.76470588235294
+"1056","March 2011","US-OH","battlestar galactica",5
+"1057","April 2011","US-OH","battlestar galactica",5.71428571428571
+"1058","May 2011","US-OH","battlestar galactica",5.35714285714286
+"1059","June 2011","US-OH","battlestar galactica",5.28571428571429
+"1060","July 2011","US-OH","battlestar galactica",4.75
+"1061","August 2011","US-OH","battlestar galactica",4.44444444444444
+"1062","September 2011","US-OH","battlestar galactica",5.0625
+"1063","October 2011","US-OH","battlestar galactica",4.9375
+"1064","November 2011","US-OH","battlestar galactica",5.29411764705882
+"1065","December 2011","US-OH","battlestar galactica",4.94444444444444
+"1066","January 2012","US-OH","battlestar galactica",4.94444444444444
+"1067","February 2012","US-OH","battlestar galactica",5
+"1068","March 2012","US-OH","battlestar galactica",5.28571428571429
+"1069","April 2012","US-OH","battlestar galactica",5.2
+"1070","May 2012","US-OH","battlestar galactica",4.625
+"1071","June 2012","US-OH","battlestar galactica",4.875
+"1072","July 2012","US-OH","battlestar galactica",4.31578947368421
+"1073","August 2012","US-OH","battlestar galactica",4.6
+"1074","September 2012","US-OH","battlestar galactica",4.61111111111111
+"1075","October 2012","US-OH","battlestar galactica",4.9375
+"1076","November 2012","US-OH","battlestar galactica",4.61111111111111
+"1077","December 2012","US-OH","battlestar galactica",4.5
+"1078","January 2013","US-OH","battlestar galactica",4.84210526315789
+"1079","February 2013","US-OH","battlestar galactica",4.88888888888889
+"1080","March 2013","US-OH","battlestar galactica",4.94117647058824
+"1081","April 2013","US-OH","battlestar galactica",4.625
+"1082","May 2013","US-OH","battlestar galactica",5
+"1083","June 2013","US-OH","battlestar galactica",4.58823529411765
+"1084","July 2013","US-OH","battlestar galactica",4.83333333333333
+"1085","August 2013","US-OH","battlestar galactica",4.89473684210526
+"1086","September 2013","US-OH","battlestar galactica",4.84210526315789
+"1087","October 2013","US-OH","battlestar galactica",0
+"1088","November 2013","US-OH","battlestar galactica",0
+"1089","December 2013","US-OH","battlestar galactica",4.89473684210526
+"1090","January 2014","US-OH","battlestar galactica",5
+"1091","February 2014","US-OH","battlestar galactica",5.22222222222222
+"1092","March 2014","US-OH","battlestar galactica",0
+"1093","January 2011","US-CA","pizza",393.78947368421
+"1094","February 2011","US-CA","pizza",383.684210526316
+"1095","March 2011","US-CA","pizza",345.833333333333
+"1096","April 2011","US-CA","pizza",378.947368421053
+"1097","May 2011","US-CA","pizza",343.421052631579
+"1098","June 2011","US-CA","pizza",350.526315789474
+"1099","July 2011","US-CA","pizza",376
+"1100","August 2011","US-CA","pizza",364
+"1101","September 2011","US-CA","pizza",418.5
+"1102","October 2011","US-CA","pizza",421.333333333333
+"1103","November 2011","US-CA","pizza",411.428571428571
+"1104","December 2011","US-CA","pizza",423.809523809524
+"1105","January 2012","US-CA","pizza",427.2
+"1106","February 2012","US-CA","pizza",391
+"1107","March 2012","US-CA","pizza",370
+"1108","April 2012","US-CA","pizza",398.666666666667
+"1109","May 2012","US-CA","pizza",341.222222222222
+"1110","June 2012","US-CA","pizza",381.789473684211
+"1111","July 2012","US-CA","pizza",363.142857142857
+"1112","August 2012","US-CA","pizza",395.6
+"1113","September 2012","US-CA","pizza",373.5
+"1114","October 2012","US-CA","pizza",377.444444444444
+"1115","November 2012","US-CA","pizza",303.130434782609
+"1116","December 2012","US-CA","pizza",392.727272727273
+"1117","January 2013","US-CA","pizza",372.181818181818
+"1118","February 2013","US-CA","pizza",381.333333333333
+"1119","March 2013","US-CA","pizza",373.8
+"1120","April 2013","US-CA","pizza",338.842105263158
+"1121","May 2013","US-CA","pizza",318.75
+"1122","June 2013","US-CA","pizza",364
+"1123","July 2013","US-CA","pizza",393.571428571429
+"1124","August 2013","US-CA","pizza",376.227272727273
+"1125","September 2013","US-CA","pizza",398.666666666667
+"1126","October 2013","US-CA","pizza",352.75
+"1127","November 2013","US-CA","pizza",376.32
+"1128","December 2013","US-CA","pizza",384.681818181818
+"1129","January 2014","US-CA","pizza",404.347826086957
+"1130","February 2014","US-CA","pizza",402.857142857143
+"1131","March 2014","US-CA","pizza",399.5
+"1132","January 2011","US-CA","ice cream",45.2631578947368
+"1133","February 2011","US-CA","ice cream",42.6315789473684
+"1134","March 2011","US-CA","ice cream",41.6666666666667
+"1135","April 2011","US-CA","ice cream",84.2105263157895
+"1136","May 2011","US-CA","ice cream",55.2631578947368
+"1137","June 2011","US-CA","ice cream",62.3157894736842
+"1138","July 2011","US-CA","ice cream",72
+"1139","August 2011","US-CA","ice cream",56
+"1140","September 2011","US-CA","ice cream",63
+"1141","October 2011","US-CA","ice cream",61.4444444444444
+"1142","November 2011","US-CA","ice cream",55.7142857142857
+"1143","December 2011","US-CA","ice cream",59.3333333333333
+"1144","January 2012","US-CA","ice cream",62.3
+"1145","February 2012","US-CA","ice cream",63.75
+"1146","March 2012","US-CA","ice cream",61.6666666666667
+"1147","April 2012","US-CA","ice cream",73.6666666666667
+"1148","May 2012","US-CA","ice cream",78.1111111111111
+"1149","June 2012","US-CA","ice cream",86.2105263157895
+"1150","July 2012","US-CA","ice cream",89.8095238095238
+"1151","August 2012","US-CA","ice cream",82.8
+"1152","September 2012","US-CA","ice cream",58.1
+"1153","October 2012","US-CA","ice cream",52.6666666666667
+"1154","November 2012","US-CA","ice cream",39.695652173913
+"1155","December 2012","US-CA","ice cream",45
+"1156","January 2013","US-CA","ice cream",50.1818181818182
+"1157","February 2013","US-CA","ice cream",50.2857142857143
+"1158","March 2013","US-CA","ice cream",54.6
+"1159","April 2013","US-CA","ice cream",54.5263157894737
+"1160","May 2013","US-CA","ice cream",60
+"1161","June 2013","US-CA","ice cream",70.5714285714286
+"1162","July 2013","US-CA","ice cream",82.8571428571428
+"1163","August 2013","US-CA","ice cream",71.8636363636364
+"1164","September 2013","US-CA","ice cream",61.3333333333333
+"1165","October 2013","US-CA","ice cream",45.65
+"1166","November 2013","US-CA","ice cream",43.12
+"1167","December 2013","US-CA","ice cream",38.0454545454545
+"1168","January 2014","US-CA","ice cream",47.8260869565217
+"1169","February 2014","US-CA","ice cream",53.7142857142857
+"1170","March 2014","US-CA","ice cream",59.5
+"1171","January 2011","US-CA","cat",190.105263157895
+"1172","February 2011","US-CA","cat",174.789473684211
+"1173","March 2011","US-CA","cat",170.833333333333
+"1174","April 2011","US-CA","cat",185.263157894737
+"1175","May 2011","US-CA","cat",173.684210526316
+"1176","June 2011","US-CA","cat",194.736842105263
+"1177","July 2011","US-CA","cat",184
+"1178","August 2011","US-CA","cat",180
+"1179","September 2011","US-CA","cat",193.5
+"1180","October 2011","US-CA","cat",219.444444444444
+"1181","November 2011","US-CA","cat",188.571428571429
+"1182","December 2011","US-CA","cat",190.714285714286
+"1183","January 2012","US-CA","cat",191.35
+"1184","February 2012","US-CA","cat",199.75
+"1185","March 2012","US-CA","cat",189.111111111111
+"1186","April 2012","US-CA","cat",199.333333333333
+"1187","May 2012","US-CA","cat",197.333333333333
+"1188","June 2012","US-CA","cat",201.157894736842
+"1189","July 2012","US-CA","cat",195.238095238095
+"1190","August 2012","US-CA","cat",216.2
+"1191","September 2012","US-CA","cat",199.2
+"1192","October 2012","US-CA","cat",223.833333333333
+"1193","November 2012","US-CA","cat",173.217391304348
+"1194","December 2012","US-CA","cat",237.272727272727
+"1195","January 2013","US-CA","cat",213.272727272727
+"1196","February 2013","US-CA","cat",213.714285714286
+"1197","March 2013","US-CA","cat",231
+"1198","April 2013","US-CA","cat",194.736842105263
+"1199","May 2013","US-CA","cat",191.25
+"1200","June 2013","US-CA","cat",204.285714285714
+"1201","July 2013","US-CA","cat",219.571428571429
+"1202","August 2013","US-CA","cat",224.045454545455
+"1203","September 2013","US-CA","cat",232.190476190476
+"1204","October 2013","US-CA","cat",236.55
+"1205","November 2013","US-CA","cat",199.92
+"1206","December 2013","US-CA","cat",219.818181818182
+"1207","January 2014","US-CA","cat",226.086956521739
+"1208","February 2014","US-CA","cat",228.285714285714
+"1209","March 2014","US-CA","cat",221
+"1210","January 2011","US-CA","sauce",86
+"1211","February 2011","US-CA","sauce",81
+"1212","March 2011","US-CA","sauce",75
+"1213","April 2011","US-CA","sauce",80
+"1214","May 2011","US-CA","sauce",75
+"1215","June 2011","US-CA","sauce",74
+"1216","July 2011","US-CA","sauce",76
+"1217","August 2011","US-CA","sauce",80
+"1218","September 2011","US-CA","sauce",81
+"1219","October 2011","US-CA","sauce",79
+"1220","November 2011","US-CA","sauce",90
+"1221","December 2011","US-CA","sauce",89
+"1222","January 2012","US-CA","sauce",89
+"1223","February 2012","US-CA","sauce",85
+"1224","March 2012","US-CA","sauce",74
+"1225","April 2012","US-CA","sauce",78
+"1226","May 2012","US-CA","sauce",74
+"1227","June 2012","US-CA","sauce",78
+"1228","July 2012","US-CA","sauce",82
+"1229","August 2012","US-CA","sauce",92
+"1230","September 2012","US-CA","sauce",83
+"1231","October 2012","US-CA","sauce",79
+"1232","November 2012","US-CA","sauce",83
+"1233","December 2012","US-CA","sauce",90
+"1234","January 2013","US-CA","sauce",92
+"1235","February 2013","US-CA","sauce",88
+"1236","March 2013","US-CA","sauce",84
+"1237","April 2013","US-CA","sauce",74
+"1238","May 2013","US-CA","sauce",75
+"1239","June 2013","US-CA","sauce",78
+"1240","July 2013","US-CA","sauce",87
+"1241","August 2013","US-CA","sauce",93
+"1242","September 2013","US-CA","sauce",92
+"1243","October 2013","US-CA","sauce",83
+"1244","November 2013","US-CA","sauce",98
+"1245","December 2013","US-CA","sauce",93
+"1246","January 2014","US-CA","sauce",100
+"1247","February 2014","US-CA","sauce",94
+"1248","March 2014","US-CA","sauce",85
+"1249","January 2011","US-CA","dog",399.647058823529
+"1250","February 2011","US-CA","dog",371.647058823529
+"1251","March 2011","US-CA","dog",375
+"1252","April 2011","US-CA","dog",362.352941176471
+"1253","May 2011","US-CA","dog",348.529411764706
+"1254","June 2011","US-CA","dog",356.941176470588
+"1255","July 2011","US-CA","dog",384.470588235294
+"1256","August 2011","US-CA","dog",390.588235294118
+"1257","September 2011","US-CA","dog",394.875
+"1258","October 2011","US-CA","dog",390.0625
+"1259","November 2011","US-CA","dog",369.473684210526
+"1260","December 2011","US-CA","dog",410.388888888889
+"1261","January 2012","US-CA","dog",439.764705882353
+"1262","February 2012","US-CA","dog",420.277777777778
+"1263","March 2012","US-CA","dog",374.625
+"1264","April 2012","US-CA","dog",419.25
+"1265","May 2012","US-CA","dog",388.5
+"1266","June 2012","US-CA","dog",399.176470588235
+"1267","July 2012","US-CA","dog",419.111111111111
+"1268","August 2012","US-CA","dog",465.111111111111
+"1269","September 2012","US-CA","dog",391.944444444444
+"1270","October 2012","US-CA","dog",404.875
+"1271","November 2012","US-CA","dog",348.6
+"1272","December 2012","US-CA","dog",426.315789473684
+"1273","January 2013","US-CA","dog",426.105263157895
+"1274","February 2013","US-CA","dog",440
+"1275","March 2013","US-CA","dog",396.666666666667
+"1276","April 2013","US-CA","dog",374.352941176471
+"1277","May 2013","US-CA","dog",379.411764705882
+"1278","June 2013","US-CA","dog",398.666666666667
+"1279","July 2013","US-CA","dog",457.894736842105
+"1280","August 2013","US-CA","dog",450.315789473684
+"1281","September 2013","US-CA","dog",421.263157894737
+"1282","October 2013","US-CA","dog",396.555555555556
+"1283","November 2013","US-CA","dog",383.090909090909
+"1284","December 2013","US-CA","dog",430.736842105263
+"1285","January 2014","US-CA","dog",435
+"1286","February 2014","US-CA","dog",435.368421052632
+"1287","March 2014","US-CA","dog",415.555555555556
+"1288","January 2011","US-CA","world cup",15.1764705882353
+"1289","February 2011","US-CA","world cup",38.1176470588235
+"1290","March 2011","US-CA","world cup",56.25
+"1291","April 2011","US-CA","world cup",32.9411764705882
+"1292","May 2011","US-CA","world cup",13.2352941176471
+"1293","June 2011","US-CA","world cup",30.4705882352941
+"1294","July 2011","US-CA","world cup",116.235294117647
+"1295","August 2011","US-CA","world cup",28.2352941176471
+"1296","September 2011","US-CA","world cup",35.4375
+"1297","October 2011","US-CA","world cup",34.5625
+"1298","November 2011","US-CA","world cup",14.2105263157895
+"1299","December 2011","US-CA","world cup",14.8333333333333
+"1300","January 2012","US-CA","world cup",10.4705882352941
+"1301","February 2012","US-CA","world cup",9.44444444444444
+"1302","March 2012","US-CA","world cup",9.25
+"1303","April 2012","US-CA","world cup",9.75
+"1304","May 2012","US-CA","world cup",13.875
+"1305","June 2012","US-CA","world cup",27.5294117647059
+"1306","July 2012","US-CA","world cup",13.6666666666667
+"1307","August 2012","US-CA","world cup",15.3333333333333
+"1308","September 2012","US-CA","world cup",18.4444444444444
+"1309","October 2012","US-CA","world cup",14.8125
+"1310","November 2012","US-CA","world cup",8.3
+"1311","December 2012","US-CA","world cup",9.47368421052632
+"1312","January 2013","US-CA","world cup",9.68421052631579
+"1313","February 2013","US-CA","world cup",14.6666666666667
+"1314","March 2013","US-CA","world cup",18.6666666666667
+"1315","April 2013","US-CA","world cup",8.70588235294118
+"1316","May 2013","US-CA","world cup",13.2352941176471
+"1317","June 2013","US-CA","world cup",43.3333333333333
+"1318","July 2013","US-CA","world cup",22.8947368421053
+"1319","August 2013","US-CA","world cup",14.6842105263158
+"1320","September 2013","US-CA","world cup",29.0526315789474
+"1321","October 2013","US-CA","world cup",32.2777777777778
+"1322","November 2013","US-CA","world cup",35.6363636363636
+"1323","December 2013","US-CA","world cup",58.7368421052632
+"1324","January 2014","US-CA","world cup",25
+"1325","February 2014","US-CA","world cup",29.6842105263158
+"1326","March 2014","US-CA","world cup",37.7777777777778
+"1327","January 2011","US-CA","battlestar galactica",5.05882352941176
+"1328","February 2011","US-CA","battlestar galactica",4.76470588235294
+"1329","March 2011","US-CA","battlestar galactica",4.6875
+"1330","April 2011","US-CA","battlestar galactica",4.70588235294118
+"1331","May 2011","US-CA","battlestar galactica",4.41176470588235
+"1332","June 2011","US-CA","battlestar galactica",4.35294117647059
+"1333","July 2011","US-CA","battlestar galactica",4.47058823529412
+"1334","August 2011","US-CA","battlestar galactica",4.70588235294118
+"1335","September 2011","US-CA","battlestar galactica",5.0625
+"1336","October 2011","US-CA","battlestar galactica",4.9375
+"1337","November 2011","US-CA","battlestar galactica",4.73684210526316
+"1338","December 2011","US-CA","battlestar galactica",4.94444444444444
+"1339","January 2012","US-CA","battlestar galactica",5.23529411764706
+"1340","February 2012","US-CA","battlestar galactica",4.72222222222222
+"1341","March 2012","US-CA","battlestar galactica",4.625
+"1342","April 2012","US-CA","battlestar galactica",4.875
+"1343","May 2012","US-CA","battlestar galactica",4.625
+"1344","June 2012","US-CA","battlestar galactica",4.58823529411765
+"1345","July 2012","US-CA","battlestar galactica",4.55555555555556
+"1346","August 2012","US-CA","battlestar galactica",5.11111111111111
+"1347","September 2012","US-CA","battlestar galactica",4.61111111111111
+"1348","October 2012","US-CA","battlestar galactica",4.9375
+"1349","November 2012","US-CA","battlestar galactica",4.15
+"1350","December 2012","US-CA","battlestar galactica",4.73684210526316
+"1351","January 2013","US-CA","battlestar galactica",4.84210526315789
+"1352","February 2013","US-CA","battlestar galactica",4.88888888888889
+"1353","March 2013","US-CA","battlestar galactica",4.66666666666667
+"1354","April 2013","US-CA","battlestar galactica",4.35294117647059
+"1355","May 2013","US-CA","battlestar galactica",4.41176470588235
+"1356","June 2013","US-CA","battlestar galactica",4.33333333333333
+"1357","July 2013","US-CA","battlestar galactica",4.57894736842105
+"1358","August 2013","US-CA","battlestar galactica",4.89473684210526
+"1359","September 2013","US-CA","battlestar galactica",4.84210526315789
+"1360","October 2013","US-CA","battlestar galactica",4.61111111111111
+"1361","November 2013","US-CA","battlestar galactica",4.45454545454546
+"1362","December 2013","US-CA","battlestar galactica",4.89473684210526
+"1363","January 2014","US-CA","battlestar galactica",5
+"1364","February 2014","US-CA","battlestar galactica",4.94736842105263
+"1365","March 2014","US-CA","battlestar galactica",4.72222222222222
